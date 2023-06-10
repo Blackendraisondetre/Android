@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab_6</string>
+    <string name="name">Accounting</string>
+    <string name="about">About me</string>
+    <string name="ex">Exit</string>
+    <string name="rapha_l_ambrosius_costeau">Raphaël Ambrosius Costeau</string>
+    <string name="act_main">Main Menu</string>
+    <string name="log">Log in</string>
+    <string name="reg">Register</string>
+    <string name="usernm">username</string>
+    <string name="pass">password</string>
+    <string name="chg">Change password</string>
+
+
+</resources>

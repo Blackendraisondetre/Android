@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wht"
+    tools:context=".Main">
+
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/man"
+        android:textColor="@color/blc"
+        android:textSize="30sp"
+        android:fontFamily="@font/caesar_dressing"
+        app:layout_constraintBottom_toTopOf="@+id/butt_hash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/plain"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:fontFamily="@font/caesar_dressing"
+        android:inputType="textPersonName"
+        android:hint="@string/plain"
+        android:textSize="20sp"
+        android:maxLength="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_text" />
+
+
+
+    <Button
+        android:id="@+id/butt_hash"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:onClick="hashing"
+        android:text="@string/hash"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/expe"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butt_hash" />
+
+
+
+    <Button
+        android:id="@+id/butt_me"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Goto_me"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:fontFamily="@font/caesar_dressing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans" />
+
+
+    <Button
+        android:id="@+id/butt_ex"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/blc"
+        android:onClick="End"
+        android:text="@string/ex"
+        android:textSize="20sp"
+        android:fontFamily="@font/caesar_dressing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butt_me" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

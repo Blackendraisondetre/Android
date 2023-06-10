@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab_5</string>
+    <string name="name">File hash compare</string>
+    <string name="butt_h1">Hash first file</string>
+    <string name="butt_h2">Hash second file</string>
+    <string name="hash">Expected hash</string>
+    <string name="comp">Compare</string>
+    <string name="ans">Expected result</string>
+    <string name="about">About me</string>
+    <string name="ex">Exit</string>
+    <string name="rapha_l_ambrosius_costeau">Raphaël Ambrosius Costeau</string>
+    <string name="act_main">Main Menu</string>
+    <string name="bin">Binary</string>
+    <string name="oct">Octal</string>
+    <string name="hex">Hex</string>
+
+
+
+</resources>

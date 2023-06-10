@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab_1</string>
+    <string name="act_main">Main Page</string>
+    <string name="cipher_eng">English Caesar cipher</string>
+    <string name="cipher_ukr">Ukrainian Caesar cipher</string>
+    <string name="about">About me</string>
+    <string name="ex">Exit</string>
+    <string name="plain">Plaintext</string>
+    <string name="cipher">Ciphertext</string>
+    <string name="number">Rot</string>
+    <string name="aff">Affine mode</string>
+    <string name="k">Key</string>
+    <string name="enc">Encrypt</string>
+    <string name="dec">Decrypt</string>
+    <string name="rapha_l_ambrosius_costeau">Raphaël Ambrosius Costeau</string>
+
+</resources>

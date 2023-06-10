@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab_7</string>
+    <string name="name">Encryption</string>
+    <string name="about">About me</string>
+    <string name="ex">Exit</string>
+    <string name="rapha_l_ambrosius_costeau">Raphaël Ambrosius Costeau</string>
+    <string name="act_main">Main Menu</string>
+    <string name="enc">Encrypt</string>
+    <string name="dec">Decrypt</string>
+    <string name="iv">iv</string>
+    <string name="butt_iv">Generate iv</string>
+    <string name="pass">password</string>
+
+
+</resources>

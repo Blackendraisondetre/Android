@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab_4</string>
+    <string name="man">SHA-512</string>
+    <string name="hash">Hash</string>
+    <string name="me">About me</string>
+    <string name="ex">Exit</string>
+    <string name="expe">Expected hash here</string>
+    <string name="plain">Insert plaintext here</string>
+    <string name="mm">Main menu</string>
+    <string name="rapha_l_ambrosius_costeau">Raphaël Ambrosius Costeau</string>
+</resources>
